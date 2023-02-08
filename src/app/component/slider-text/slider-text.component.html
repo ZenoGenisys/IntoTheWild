@@ -1,0 +1,12 @@
+<owl-carousel-o [options]="customOptions">
+    <ng-container *ngFor="let slide of sliderdata">
+        <ng-template carouselSlide>
+            <div class="item">
+                <div class="quote-sep">
+                    <h4>{{slide.description}}</h4>
+                    <h6>{{slide.title}}</h6>
+                </div>
+            </div>
+        </ng-template>
+    </ng-container>
+</owl-carousel-o>

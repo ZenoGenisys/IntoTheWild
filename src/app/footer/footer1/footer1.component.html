@@ -1,0 +1,128 @@
+<div class="section padding-top z-bigger">
+    <div class="container">
+        <div class="row justify-content-center padding-bottom-smaller">
+            <div class="col-md-8">
+                <div class="subtitle with-line text-center mb-4">get in touch</div>
+                <h3 class="text-center padding-bottom-small">drop us a line</h3>
+            </div>
+            <div class="section clearfix"></div>
+            <div class="col-md-6 col-lg-4">
+                <div class="address">
+                    <div class="address-in text-left">
+                        <p class="color-black">Address:</p>
+                    </div>
+                    <div class="address-in text-right">
+                        <p>Avenue Str. 328</p>
+                    </div>
+                </div>
+                <div class="address">
+                    <div class="address-in text-left">
+                        <p class="color-black">City:</p>
+                    </div>
+                    <div class="address-in text-right">
+                        <p>Thessaloniki</p>
+                    </div>
+                </div>
+                <div class="address">
+                    <div class="address-in text-left">
+                        <p class="color-black">Check-In:</p>
+                    </div>
+                    <div class="address-in text-right">
+                        <p>14:00 pm</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="address">
+                    <div class="address-in text-left">
+                        <p class="color-black">Phone:</p>
+                    </div>
+                    <div class="address-in text-right">
+                        <p>+21 60 374 7537</p>
+                    </div>
+                </div>
+                <div class="address">
+                    <div class="address-in text-left">
+                        <p class="color-black">Email:</p>
+                    </div>
+                    <div class="address-in text-right">
+                        <p>info@hotel.com</p>
+                    </div>
+                </div>
+                <div class="address">
+                    <div class="address-in text-left">
+                        <p class="color-black">Check-Out:</p>
+                    </div>
+                    <div class="address-in text-right">
+                        <p>11:00 am</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section clearfix"></div>
+            <div class="col-md-8 text-center mt-5" data-scroll-reveal="enter bottom move 50px over 0.7s after 0.2s">
+                <p class="mb-0"><em>available at: 8am - 10pm</em></p>
+                <h2 class="text-opacity">+21 60 374 7537</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="subscribe-home">
+                    <input type="text" placeholder="your email here" />
+                    <button data-lang="en">subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <owl-carousel-o [options]="customOptions">
+        <ng-container *ngFor="let slide of sliderdata">
+            <ng-template carouselSlide>
+                <img src={{slide.imageUrl}} alt="">
+            </ng-template>
+        </ng-container>
+    </owl-carousel-o>
+</div>
+
+<div class="section padding-top-bottom-small background-black over-hide footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 text-center text-md-left">
+                <img src="../assets/img/logo.png" alt="">
+                <p class="color-grey mt-4">Avenue Street 3284<br>Thessaloniki</p>
+            </div>
+            <div class="col-md-4 text-center text-md-left">
+                <h6 class="color-white mb-3">information</h6>
+                <a href="tandc.html">terms &amp; conditions</a>
+                <a href="services.html">services</a>
+                <a href="restaurant.html">restaurant</a>
+                <a href="testimonials.html">testimonials</a>
+                <a href="gallery.html">gallery &amp; images</a>
+            </div>
+            <div class="col-md-5 mt-4 mt-md-0 text-center text-md-left logos-footer">
+                <h6 class="color-white mb-3">about us</h6>
+                <p class="color-grey mb-4">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                    praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+                <img src="../assets/img/logos/1.png" alt="">
+                <img src="../assets/img/logos/2.png" alt="">
+                <img src="../assets/img/logos/3.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section py-4 background-dark over-hide footer-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-center text-md-left mb-2 mb-md-0">
+                <p>2019 © Thalia. All rights reserved.</p>
+            </div>
+            <div class="col-md-6 text-center text-md-right">
+                <a href="#" class="social-footer-bottom">facebook</a>
+                <a href="#" class="social-footer-bottom">twitter</a>
+                <a href="#" class="social-footer-bottom">instagram</a>
+            </div>
+        </div>
+    </div>
+</div>
