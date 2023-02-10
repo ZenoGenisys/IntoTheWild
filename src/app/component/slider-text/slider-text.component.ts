@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
-import { HomeDesCard } from '../../../config/home';
+import { HomeDesCard } from '../../../config/config.module';
 
 @Component({
   selector: 'app-slider-text',

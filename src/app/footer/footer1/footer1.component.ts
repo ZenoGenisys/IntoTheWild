@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
-import { footer1 } from '../../../config/footer'
+import { footer1 } from '../../../config/config.module'
 
 @Component({
   selector: 'app-footer1',

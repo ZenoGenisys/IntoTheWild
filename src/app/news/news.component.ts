@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { news } from 'src/config/config.module';
 
 @Component({
   selector: 'app-news',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./news.component.scss']
 })
 export class NewsComponent {
-
+  sliderdata = news
 }

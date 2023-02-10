@@ -13,6 +13,8 @@ import { Footer2Component } from './footer/footer2/footer2.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { SliderTextComponent } from './component/slider-text/slider-text.component';
+import { FooterSlideComponent } from './component/footer-slide/footer-slide.component';
+import { RoomsComponent } from './component/rooms/rooms.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,8 @@ import { SliderTextComponent } from './component/slider-text/slider-text.compone
     Footer1Component,
     Footer2Component,
     SliderTextComponent,
+    FooterSlideComponent,
+    RoomsComponent,
   ],
   imports: [
     BrowserModule,

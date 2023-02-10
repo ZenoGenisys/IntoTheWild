@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HomeReadMore } from 'src/config/config.module';
 
 @Component({
   selector: 'app-about',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent {
+  sliderdata = HomeReadMore
 
 }

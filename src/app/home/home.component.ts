@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { OwlOptions } from 'ngx-owl-carousel-o';
-import { HomeDesCard } from '../../config/home';
+import { HomeReadMore, rooms } from 'src/config/config.module';
 
 @Component({
   selector: 'app-home',
@@ -8,5 +7,14 @@ import { HomeDesCard } from '../../config/home';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
+  sliderdata = HomeReadMore
+  roomCard = rooms
 
+  counter(index: number) {
+    let res = [];
+    for (let i = 0; i < index; i++) {
+      res.push(i);
+    }
+    return res;
+  }
 }
