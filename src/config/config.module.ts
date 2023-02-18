@@ -77,19 +77,19 @@ export const HomeDesCard = [
 
 export const footerSlider = [
     {
-        name: 'spa salon',
+        name: 'Trecking',
         image: '../assets/img/ser-1.jpg'
     },
     {
-        name: 'restaurant',
+        name: 'Campfire',
         image: '../assets/img/ser-2.jpg'
     },
     {
-        name: 'pool',
+        name: 'Adventure Riding',
         image: '../assets/img/ser-3.jpg'
     },
     {
-        name: 'activities',
+        name: 'Tasty Food',
         image: '../assets/img/ser-4.jpg'
     },
 ]
@@ -97,33 +97,33 @@ export const footerSlider = [
 export const HomeReadMore = [
     {
         icon: '../assets/img/1.svg',
-        title: 'smoking free',
-        description: 'Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam, eaque ipsa quae abillo inventore veritatis et.'
+        title: 'Lorem ipsum',
+        description: 'Lorem ipsum dolor sit amet. Et voluptatum aliquam et Quis minima et quisquam odio? Est nobis enim ea neque perferendis cum consequatur consequatur qui obcaecati illo id sequi animi.'
     },
     {
         icon: '../assets/img/2.svg',
-        title: 'smoking free',
-        description: 'Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam, eaque ipsa quae abillo inventore veritatis et.'
+        title: 'Lorem ipsum',
+        description: 'Lorem ipsum dolor sit amet. Et voluptatum aliquam et Quis minima et quisquam odio? Est nobis enim ea neque perferendis cum consequatur consequatur qui obcaecati illo id sequi animi.'
     },
     {
         icon: '../assets/img/3.svg',
-        title: 'smoking free',
-        description: 'Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam, eaque ipsa quae abillo inventore veritatis et.'
+        title: 'Lorem ipsum',
+        description: 'Lorem ipsum dolor sit amet. Et voluptatum aliquam et Quis minima et quisquam odio? Est nobis enim ea neque perferendis cum consequatur consequatur qui obcaecati illo id sequi animi.'
     },
     {
         icon: '../assets/img/4.svg',
-        title: 'smoking free',
-        description: 'Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam, eaque ipsa quae abillo inventore veritatis et.'
+        title: 'Lorem ipsum',
+        description: 'Lorem ipsum dolor sit amet. Et voluptatum aliquam et Quis minima et quisquam odio? Est nobis enim ea neque perferendis cum consequatur consequatur qui obcaecati illo id sequi animi.'
     },
     {
         icon: '../assets/img/5.svg',
-        title: 'smoking free',
-        description: 'Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam, eaque ipsa quae abillo inventore veritatis et.'
+        title: 'Lorem ipsum',
+        description: 'Lorem ipsum dolor sit amet. Et voluptatum aliquam et Quis minima et quisquam odio? Est nobis enim ea neque perferendis cum consequatur consequatur qui obcaecati illo id sequi animi.'
     },
     {
         icon: '../assets/img/6.svg',
-        title: 'smoking free',
-        description: 'Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam, eaque ipsa quae abillo inventore veritatis et.'
+        title: 'Lorem ipsum',
+        description: 'Lorem ipsum dolor sit amet. Et voluptatum aliquam et Quis minima et quisquam odio? Est nobis enim ea neque perferendis cum consequatur consequatur qui obcaecati illo id sequi animi.'
     },
 ]
 
