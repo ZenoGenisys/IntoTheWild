@@ -10895,7 +10895,7 @@ window.scrollReveal = (function (t) {
         "relative" !== e &&
         (this.el.style.position = "relative"),
         (this.content = i("div", "block-revealer__content", this.el.innerHTML)),
-        this.options.isContentHidden && (this.content.style.opacity = 0),
+        this.options.isContentHidden && (this.content.style.opacity = 1),
         (this.revealer = i("div", "block-revealer__element")),
         (this.revealer.style.width = this.options.revealSettings.revealWidth),
         (this.originalEl = this.el.cloneNode(!0)),
