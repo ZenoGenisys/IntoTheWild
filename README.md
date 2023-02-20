@@ -1,4 +1,4 @@
-# MyApp1
+# Into The Wild
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.4.
 
@@ -25,3 +25,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Netlify badge
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5fae9bd3-8ec3-4733-96fa-fbe7609cd1dc/deploy-status)](https://app.netlify.com/sites/intothewildkodai/deploys)
