@@ -2238,6 +2238,25 @@ select.form {
   background-repeat: no-repeat;
   background-size: 80px 80px;
 }
+.quantity2 input {
+  width: 100%;
+  height: 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 300;
+  display: block;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  margin: 0;
+  text-align: center;
+  border: solid 1px rgba(255, 255, 255, 0.1);
+  background-color: transparent;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 80px 80px;
+}
 .quantity input:focus {
   outline: 0;
 }

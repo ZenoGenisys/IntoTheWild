@@ -43,7 +43,7 @@ export const footer1 = [
 
 export const HeaderLinks = [
     {
-        name: 'home',
+        name: 'Home',
         url: '/'
     },
     {
@@ -51,7 +51,7 @@ export const HeaderLinks = [
         url: '/about'
     },
     {
-        name: 'news',
+        name: 'Rooms',
         url: '/news'
     },
     {
@@ -62,16 +62,18 @@ export const HeaderLinks = [
 
 export const HomeDesCard = [
     {
-        title: "Jason Salvatore",
-        description: "Chilling out on the bed in your hotel room watching television, while wearingyour own pajamas,is sometimes the best part of a vacation."
+        title: "Quiet peaceful",
+        description: `This place is ideal for those who need a quiet peaceful stay after a hectic drive in  kodaikanal.
+        Away from the busy  Town to relax while you enjoy the nature's beauty.`
     },
     {
-        title: "Terry Mitchell",
-        description: "Every good day starts off with a cappuccino, and there's no place better toenjoy some frothy caffeine than at the Thalia Hotel."
+        title: "Natural Scenery",
+        description: "There is wonderful lawn to roam around and to click a picture."
     },
     {
-        title: "Michael Brighton",
-        description: "I still enjoy traveling a lot. I mean, it amazes me that I still get excited in hotel rooms just to see what kind of shampoo they've left me."
+        title: "Wonderful Weather",
+        description: `Its cold in December, January and February.
+        A lot of guests love this weather, but some don't. So if you find cold weather unbearable, the rest of the year is fine.`
     }
 ];
 
@@ -96,67 +98,78 @@ export const footerSlider = [
 
 export const HomeReadMore = [
     {
-        icon: '../assets/img/1.svg',
-        title: 'Lorem ipsum',
-        description: 'Lorem ipsum dolor sit amet. Et voluptatum aliquam et Quis minima et quisquam odio? Est nobis enim ea neque perferendis cum consequatur consequatur qui obcaecati illo id sequi animi.'
+        icon: '../assets/img/jeep-64.png',
+        title: 'Jeep Safari Ride',
+        description: 'Driving through the serene and picturesque countryside on a Jeep Safari not only revitalises and refreshes one, but also makes one feel close to nature.'
     },
     {
-        icon: '../assets/img/2.svg',
-        title: 'Lorem ipsum',
-        description: 'Lorem ipsum dolor sit amet. Et voluptatum aliquam et Quis minima et quisquam odio? Est nobis enim ea neque perferendis cum consequatur consequatur qui obcaecati illo id sequi animi.'
+        icon: '../assets/img/trekking.png',
+        title: 'Trekking',
+        description: 'Trekking is recreational activity that involves covering any specified journey on foot. we trek through the mountain to the view ponit of the palani and dams and enjoy from the edge of the mountains.'
     },
     {
-        icon: '../assets/img/3.svg',
-        title: 'Lorem ipsum',
-        description: 'Lorem ipsum dolor sit amet. Et voluptatum aliquam et Quis minima et quisquam odio? Est nobis enim ea neque perferendis cum consequatur consequatur qui obcaecati illo id sequi animi.'
-    },
-    {
-        icon: '../assets/img/4.svg',
-        title: 'Lorem ipsum',
-        description: 'Lorem ipsum dolor sit amet. Et voluptatum aliquam et Quis minima et quisquam odio? Est nobis enim ea neque perferendis cum consequatur consequatur qui obcaecati illo id sequi animi.'
-    },
-    {
-        icon: '../assets/img/5.svg',
-        title: 'Lorem ipsum',
-        description: 'Lorem ipsum dolor sit amet. Et voluptatum aliquam et Quis minima et quisquam odio? Est nobis enim ea neque perferendis cum consequatur consequatur qui obcaecati illo id sequi animi.'
+        icon: '../assets/img/bonfire.png',
+        title: 'Bonfire',
+        description: 'Having a campfire or bonfire and sitting around and enjoying as a group or family is a part of summer vacation in Kodaikanal.'
     },
     {
         icon: '../assets/img/6.svg',
-        title: 'Lorem ipsum',
-        description: 'Lorem ipsum dolor sit amet. Et voluptatum aliquam et Quis minima et quisquam odio? Est nobis enim ea neque perferendis cum consequatur consequatur qui obcaecati illo id sequi animi.'
+        title: 'Food',
+        description: 'we serve fresh and delicious food with a high grade home food, for dinner we provide a chapathi and jera rice with veg and non veg gravy.'
+    },
+    {
+        icon: '../assets/img/board-game.png',
+        title: 'Board Games',
+        description: `Whether you're a fan of strategy, teamwork, or just looking for a fun time with family and friends, our board game collection has something for everyone.`
+    },
+    {
+        icon: '../assets/img/projector.png',
+        title: 'Projector',
+        description: 'Enjoy movie nights under the stars, catch up on your favorite TV shows, or organize exciting gaming sessions on a big screen.'
     },
 ]
 
 export const rooms = [
     {
-        name: 'suite tanya',
-        title: 'pool suite',
-        description: 'Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.',
-        cost: 'book from 130$',
+        name: 'Balcony Room',
+        title: 'Balcony Room',
+        description: `For gatherings with family and friends, a balcony room is ideal.
+        There will be a beautiful view of the Palani Temple and Palani City.  
+        "Family and friends are hidden treasures, seek them out and enjoy their riches".`,
+        cost: 'Enquire',
         star: 4,
         image: '../assets/img/room3.jpg'
     },
     {
-        name: 'suite tanya',
-        title: 'small room',
-        description: 'Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.',
-        cost: 'book from 130$',
+        name: 'Aframe cabin',
+        title: 'Aframe cabin',
+        description: `This cabin is ideal for couples. 
+        Our cabin has a panoramic view of the entire mountain range.
+        Our cabin has a clean, private bathroom with hot water.
+        Stunning room view of the morning.
+       
+       "Falling in love all over again".`,
+        cost: 'Enquire',
         star: 4,
         image: '../assets/img/room4.jpg'
     },
     {
-        name: 'suite tanya',
-        title: 'Appartment',
-        description: 'Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.',
-        cost: 'book from 130$',
+        name: 'Qudral room',
+        title: 'Qudral room',
+        description: `The bed's window provides a mesmerising view of the sunrise.
+        Either for a family or for four friends.
+        "A real friends is one who walks in when the rest of the world walks out"`,
+        cost: 'Enquire',
         star: 4,
         image: '../assets/img/room5.jpg'
     },
     {
-        name: 'suite tanya',
-        title: 'big Apartment',
-        description: 'Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.',
-        cost: 'book from 130$',
+        name: 'New room sunset view',
+        title: 'New room sunset view',
+        description: `The room itself offers the sunset view .
+        It also includes a large window with a view of the forest and amazing sunset view in the evening.
+        Awesome to stay with relatives and friends.`,
+        cost: 'Enquire',
         star: 5,
         image: '../assets/img/room6.jpg'
     },
@@ -164,21 +177,37 @@ export const rooms = [
 
 export const news = [
     {
-        title: 'WE WANT TO SHARE WITH YOU OUR MOOD',
-        description: 'Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illoinventore veritatis et.',
+        title: 'Balcony Room',
+        description: `For gatherings with family and friends, a balcony room is ideal.
+        There will be a beautiful view of the Palani Temple and Palani City.  
+        "Family and friends are hidden treasures,seek them out and enjoy their riches".`,
         image: '../assets/img/blog/1.jpg',
-        footer: ['luxury', 'vacation', 'travel']
+        footer: ['luxury', 'vacation', 'couples']
     },
     {
-        title: 'SLEEP, CODE, EAT, TRAVEL. REPEAT.',
-        description: 'Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illoinventore veritatis et.',
+        title: 'Aframe Cabin',
+        description: `This cabin is ideal for couples. 
+        Our cabin has a panoramic view of the entire mountain range.
+        Our cabin has a clean, private bathroom with hot water.
+        Stunning room view of the morning.
+       
+       "Falling in love all over again".`,
         image: '../assets/img/blog/2.jpg',
-        footer: ['luxury', 'vacation', 'travel']
+        footer: ['luxury', 'vacation', 'couple']
     },
     {
-        title: 'THE GOLDEN RULE OF WEBDESIGN.',
-        description: 'Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illoinventore veritatis et.',
+        title: 'Qudral Room',
+        description: `The bed's window provides a mesmerising view of the sunrise.
+        Either for a family or for four friends.`,
         image: '../assets/img/blog/3.jpg',
-        footer: ['luxury', 'vacation', 'travel']
+        footer: ['luxury', 'family', 'friends']
+    },
+    {
+        title: 'New room sunset view',
+        description: `The room itself offers the sunset view .
+        It also includes a large window with a view of the forest.
+        Awesome to stay with relatives and friends.`,
+        image: '../assets/img/blog/3.jpg',
+        footer: ['luxury', 'family', 'friends']
     }
 ]
