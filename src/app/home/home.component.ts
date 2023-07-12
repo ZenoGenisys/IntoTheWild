@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { HomeReadMore, rooms } from 'src/config/config.module';
 
 @Component({
@@ -9,6 +9,7 @@ import { HomeReadMore, rooms } from 'src/config/config.module';
 export class HomeComponent {
   sliderdata = HomeReadMore
   roomCard = rooms
+  quantity: number = 1;
 
   counter(index: number) {
     let res = [];
