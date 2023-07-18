@@ -15,6 +15,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { SliderTextComponent } from './component/slider-text/slider-text.component';
 import { FooterSlideComponent } from './component/footer-slide/footer-slide.component';
 import { RoomsComponent } from './component/rooms/rooms.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { RoomsComponent } from './component/rooms/rooms.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    CarouselModule
+    CarouselModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
